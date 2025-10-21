@@ -79,7 +79,7 @@ def open_file(file_path):
 
 def file_c6(*argv,**kwargs):
     for kk,vv in kwargs.items():
-        file_name = () ; c6_txt = {'g':'vals_C6I8I8.txt', 'e':'vals_C6I8K9.txt'}
+        file_name = () ; c6_txt = {'g':'C6I8I8.txt', 'e':'C6I8K9.txt'}
         if 'e' in kk: file_name = c6_txt['e'] ; file_dix = {'17':0,'16':0,'15':0}
         if 'g' in kk: file_name = c6_txt['g'] ; file_dix = {'16':0}
         if file_name:
